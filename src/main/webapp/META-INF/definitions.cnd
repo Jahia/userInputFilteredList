@@ -1,0 +1,9 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+
+[jmix:retrievableContent] mixin
+
+[jnt:filterableList] > jnt:contentList //jnt:content, jmix:listContent, mix:title, jmix:list, jmix:renderableList, jmix:listOrdering
+ - j:type (string, choicelist[subnodetypes = 'jnt:page,jmix:basicContent,jmix:editorialContent,jmix:retrievableContent',resourceBundle]) indexed=no mandatory
+ - field (string, choicelist[sortableFieldnames,resourceBundle]) indexed=no
+
