@@ -1,0 +1,1 @@
+A content list filtered with ajax accordingly to the value of a text input.
