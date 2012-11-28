@@ -1,4 +1,4 @@
-package org.jahia.modules.filterable-list.rules
+package org.jahia.modules.filterableList.rules
 
 #list any import classes here.
 import org.jahia.services.content.rules.*

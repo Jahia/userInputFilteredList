@@ -3,7 +3,7 @@
 
 [jmix:retrievableContent] mixin
 
-[jnt:filterableList] > jnt:contentList //jnt:content, jmix:listContent, mix:title, jmix:list, jmix:renderableList, jmix:listOrdering
+[jnt:filterableList] > jnt:contentList
  - j:type (string, choicelist[subnodetypes = 'jnt:page,jmix:basicContent,jmix:editorialContent,jmix:retrievableContent',resourceBundle]) indexed=no mandatory
  - field (string, choicelist[sortableFieldnames,resourceBundle]) indexed=no
 
