@@ -12,9 +12,6 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
-<c:if test="${param.request != null and !empty param.request}">
-<h1>${param.request}</h1>
-</c:if>
 <c:set var="resourceReadOnly" value="${currentResource.moduleParams.readOnly}"/>
 <template:include view="hidden.header"/>
 <c:set var="isEmpty" value="true"/>
